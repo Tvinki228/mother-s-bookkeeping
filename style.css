@@ -1,0 +1,102 @@
+body {
+  background: url(img/leaves-pattern.webp);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body .header .container {
+  text-align: center;
+}
+
+body .header .container h1 {
+  color: brown;
+}
+
+body .main .container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body .main .container .data-input {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px 7px;
+}
+
+body .main .container .data-input:nth-child(4) {
+  margin-bottom: 20px;
+}
+
+body .main .container .button {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 14px 14px;
+}
+
+body .footer .container {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body .footer .container #salary-after-culc {
+  color: #204ddf;
+  font-size: 23px;
+}
+
+body .footer .container #total-number-of-days {
+  font-size: 23px;
+  color: cornflowerblue;
+}
+
+body .footer .container #eighteen-haruna {
+  margin-bottom: 40px;
+}
+
+body .footer .container .eighteen {
+  color: #381e1e;
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+body .footer .container .half {
+  font-size: 18px;
+  color: #2426be;
+  margin-top: 8px;
+}
+
+body .footer .container .first-salary {
+  margin-top: 20px;
+}
+
+body .footer .container .salary {
+  font-size: 18px;
+  color: #0b281d;
+  margin-top: 5px;
+}
+
+body input::-webkit-outer-spin-button,
+body input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

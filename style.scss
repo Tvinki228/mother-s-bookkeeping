@@ -1,0 +1,85 @@
+body {
+    background: url(img/leaves-pattern.webp);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .header {
+        .container {
+            text-align: center;
+            h1 {
+            color: brown;
+        }
+    }
+    }
+    .main {
+        .container {
+            max-width: 1160px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding-left: 5px;
+            padding-right: 5px;
+            .data-input {
+                display: inline-block;
+                border-radius: 5px;
+                padding: 7px 7px;
+                &:nth-child(4) {
+                    margin-bottom: 20px;
+                }
+            }
+            .button {
+                margin-top: 20px;
+                border-radius: 5px;
+                padding: 14px 14px;
+            }
+        }
+    }
+    .footer {
+        .container {
+            max-width: 1160px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            #salary-after-culc {
+                color: rgb(32, 77, 223);
+                font-size: 23px;
+            }
+            #total-number-of-days {
+                font-size: 23px;
+                color: cornflowerblue;
+            }
+            #eighteen-haruna {
+                margin-bottom: 40px;
+            }
+            .eighteen {
+                color: rgb(56, 30, 30);
+                font-size: 18px;
+                margin-bottom: 5px;
+                margin-top: 8px;
+            }
+            .half {
+                font-size: 18px;
+                color: rgb(36, 38, 190);
+                margin-top: 8px;
+            }
+            .first-salary {
+                margin-top: 20px;
+            }
+            .salary {
+                font-size: 18px;
+                color: rgb(11, 40, 29);
+                margin-top: 5px;
+            }
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+
+}

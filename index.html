@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header class="header">
+    <div class="container">
+        <h1>
+            Доброго дня, Тамара Петрівна!
+        </h1>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <label for="num1">Оборот Сигарет:</label>
+        <input type="number" id="num1" class="data-input" required>
+        <label for="num2">Оборот інших товарів:</label>
+        <input type="number" id="num2" class="data-input" required>
+        <label for="num3">Кількість робочих днів Овальченко:</label>
+        <input type="number" id="num3" class="data-input" required>
+        <label for="num4">Кількість робочих днів Капинос:</label>
+        <input type="number" id="num4" class="data-input" required>
+        <label for="num5">Кількість робочих днів Кримчаніна:</label>
+        <input type="number" id="num5" class="data-input" required>
+        <label for="num6">Кількість робочих днів Коваленко:</label>
+        <input type="number" id="num6" class="data-input" required>
+        <label for="num7">Кількість робочих днів Пелипенко:</label>
+        <input type="number" id="num7" class="data-input" required>
+        <label for="num8">Кількість робочих днів Харина:</label>
+        <input type="number" id="num8" class="data-input" required>
+        <button id="show-popup" class="button" onclick="processNumbers()">Розрахувати</button>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <p id="salary-after-culc"></p>
+        <p id="total-number-of-days"></p>
+        <p id="eighteen-ovalchenko" class="eighteen"></p>
+        <p id="eighteen-kapunos" class="eighteen"></p>
+        <p id="eighteen-krumchanina" class="eighteen"></p>
+        <p id="eighteen-kovalenko" class="eighteen"></p>
+        <p id="eighteen-pelupenko" class="eighteen"></p>
+        <p id="eighteen-haruna" class="eighteen"></p>
+
+
+        <p id="half-percent-ovalchenko" class="half"></p>
+        <p id="half-percent-kapunos" class="half"></p>
+        <p id="half-percent-krumchanina" class="half"></p>
+        <p id="half-percent-kovalenko" class="half"></p>
+        <p id="half-percent-pelupenko" class="half"></p>
+        <p id="half-percent-haruna" class="half"></p>
+
+
+
+        <p id="salary-ovalchenko" class="salary first-salary"></p>
+        <p id="salary-kapunos" class="salary"></p>
+        <p id="salary-krumchanina" class="salary"></p>
+        <p id="salary-kovalenko" class="salary"></p>
+        <p id="salary-pelupenko" class="salary"></p>
+        <p id="salary-haruna" class="salary"></p>
+    </div>
+</footer>
+
+<body>
+    <script src="code.js"></script>
+</body>
+
+</html>
